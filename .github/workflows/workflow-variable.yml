@@ -11,7 +11,7 @@ jobs:
       greeting: Congratulations!
     steps: 
       - name : geeting a day
-        run: hey $first_name , $greeting for getting new $bike
+        run: echo "hey $first_name , $greeting for getting new $bike "
         env:
           first_name : Saikrishna
   
