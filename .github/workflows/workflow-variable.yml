@@ -5,7 +5,7 @@ on :
 env :
   bike: Triumph Speed T400
 jobs:
-  greeting_jon:
+  greeting_job:
     runs-on: ubuntu-latest
     env:
       greeting: Congratulations!
