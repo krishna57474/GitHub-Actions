@@ -1,0 +1,17 @@
+name : Testing workflow variables
+on :
+  workflow_dispatch
+
+env :
+  bike: Triumph Speed T400
+jobs:
+  greeting_jon:
+    runs-on: ubuntu-latest
+    env:
+      greeting: Congratulations!
+    steps: 
+      - name : geeting a day
+        run: hey $first_name , $greeting for getting new $bike
+        env:
+          first_name : Saikrishna
+  
